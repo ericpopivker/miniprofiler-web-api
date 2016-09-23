@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProfilerX.Profiling.Web
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProfilerX.Sample.WebApi", "MiniProfilerX.Sample.WebApi\MiniProfilerX.Sample.WebApi.csproj", "{2290341C-3CD3-4294-8375-996EFF8F6129}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProfilerX.Sample.Mvc", "MiniProfilerX.Sample.Mvc\MiniProfilerX.Sample.Mvc.csproj", "{67A7D8C5-0C67-4B1E-9106-79C30432C79D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2290341C-3CD3-4294-8375-996EFF8F6129}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2290341C-3CD3-4294-8375-996EFF8F6129}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2290341C-3CD3-4294-8375-996EFF8F6129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67A7D8C5-0C67-4B1E-9106-79C30432C79D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A7D8C5-0C67-4B1E-9106-79C30432C79D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A7D8C5-0C67-4B1E-9106-79C30432C79D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A7D8C5-0C67-4B1E-9106-79C30432C79D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

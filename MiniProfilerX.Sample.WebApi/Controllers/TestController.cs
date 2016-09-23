@@ -23,7 +23,7 @@ namespace MiniProfilerX.Sample.WebApi.Controllers
         [Route("~/test")]
         public async Task<string> Get()
         {
-            using (MiniProfiler.StepStatic("1.0 Short Action"))
+            using (MiniProfiler.StepStatic("WebApi: 1.0 Short Action"))
             {
                 using (MiniProfiler.Current.CustomTiming("sql", Query))
                 {
@@ -35,19 +35,19 @@ namespace MiniProfilerX.Sample.WebApi.Controllers
                     await Task.Delay(20);
                 }
 
-                using (MiniProfiler.StepStatic("1.1 Inner Action"))
+                using (MiniProfiler.StepStatic("WebApi: 1.1 Inner Action"))
                 {
                     await Task.Delay(20);
                 }
 
-                using (MiniProfiler.StepStatic("1.2 Another Inner Action"))
+                using (MiniProfiler.StepStatic("WebApi: 1.2 Another Inner Action"))
                 {
                     await Task.Delay(20);
                 }
             }
 
 
-            using (MiniProfiler.StepStatic("2.0 Long Action"))
+            using (MiniProfiler.StepStatic("WebApi: 2.0 Long Action"))
             {
                 using (MiniProfiler.Current.CustomTiming("sql", Query2))
                 {
@@ -59,12 +59,12 @@ namespace MiniProfilerX.Sample.WebApi.Controllers
                     await Task.Delay(200);
                 }
 
-                using (MiniProfiler.StepStatic("2.1 InnerAction"))
+                using (MiniProfiler.StepStatic("WebApi: 2.1 InnerAction"))
                 {
                     await Task.Delay(100);
                 }
 
-                using (MiniProfiler.StepStatic("2.2 Another InnerAction"))
+                using (MiniProfiler.StepStatic("WebApi: 2.2 Another InnerAction"))
                 {
                     await Task.Delay(100);
                 }
