@@ -9,13 +9,15 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
 
 1. Setup MiniProfiler on your Web Api using same steps as you would do it for a regular MVC project.
 
-List of steps is here:
-http://stackoverflow.com/a/31568406/221291
+  List of steps is here:
+   http://stackoverflow.com/a/31568406/221291
 
-Follow EF steps if you would like to track Entity Framework peformance.
+   Follow EF steps if you would like to track Entity Framework peformance.
 
-Or on original MiniProfiler site:
-http://miniprofiler.com
+   Or on original MiniProfiler site:
+   http://miniprofiler.com
+   
+2. 
 
 
 
