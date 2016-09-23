@@ -1,6 +1,6 @@
 # MiniProfiler for Web Api
 
-MiniProfiler comes with a way to return MiniProfiler data from WCF service, but not Web Api.  I provided a small library that allows you to return MiniProfiler performance data from Web Api to display it on the client site.  It works similar to WCF.
+MiniProfiler comes with a way to return MiniProfiler data from WCF service, but not Web Api.  I provided a small library that allows you to return MiniProfiler performance data from Web Api to display it on the client MVC Web applicaiton.  It works similar to how WCF MiniProfiler integration used to work.
 
 
 ![Screenshot](/Screenshot.png "Screenshot")
