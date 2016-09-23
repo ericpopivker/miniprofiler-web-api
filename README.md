@@ -17,8 +17,8 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
    Or on original MiniProfiler site:
    http://miniprofiler.com
 
-2. Download and add "MiniProfilerX.Profilinig.WebApi" dll as reference to your WebApi project
-3. Add the following code to Global.asax.cs
+2. Download and add "MiniProfilerX.Profiling.WebApi" dll as reference to your WebApi project
+3. Add the following code to Global.asax.cs in WebApi project
 
     ```C#
    using MiniProfilerX.Profiling.WebApi;  //Add this using pragma
