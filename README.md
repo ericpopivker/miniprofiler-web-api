@@ -3,7 +3,7 @@ Display Mini-Profiler results returned from Web Api.
 
 MiniProfiler comes with a way to return MiniProfiler data from WCF service, but not Web Api.  I provided a small library that allows you to return MiniProfiler performance data from Web Api to display it on the client site.  It works similar to WCF.
 
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
+![Screenshot](/Screenshot.png "Screenshot")
 
 ## Setup
 
