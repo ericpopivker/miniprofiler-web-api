@@ -18,7 +18,8 @@ MiniProfiler comes with a way to return MiniProfiler data from WCF service, but 
    Or on original MiniProfiler site:
    http://miniprofiler.com
 
-2. Download and add "MiniProfilerX.Profiling.WebApi" dll and reference it in your WebApi project
+2. Download and add "MiniProfilerX.Profiling.WebApi" dll and reference it in your WebApi project.
+   
    From here: https://github.com/ericpopivker/miniprofiler-web-api/releases
 3. Add the following code to Global.asax.cs in WebApi project
 
@@ -50,7 +51,8 @@ MiniProfiler comes with a way to return MiniProfiler data from WCF service, but 
    Or on original MiniProfiler site:
    http://miniprofiler.com
    
-2. Download and add "MiniProfilerX.Profiling.WebApi" dll and reference it in your WebApi project
+2. Download and add "MiniProfilerX.Profiling.WebApi" dll and reference it in your WebApi project.
+   
    From here: https://github.com/ericpopivker/miniprofiler-web-api/releases
 3. Add the following code to the code that creates and send Http requests to external APIs
 
