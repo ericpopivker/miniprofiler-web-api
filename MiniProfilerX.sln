@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProfilerX.Profiling.WebApi", "MiniProfilerX.Profiling.WebApi\MiniProfilerX.Profiling.WebApi.csproj", "{EF411411-069E-4C10-8A03-BC02267D78E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProfilerX.Sample.WebApi", "MiniProfilerX.Sample.WebApi\MiniProfilerX.Sample.WebApi.csproj", "{2290341C-3CD3-4294-8375-996EFF8F6129}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EF411411-069E-4C10-8A03-BC02267D78E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF411411-069E-4C10-8A03-BC02267D78E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF411411-069E-4C10-8A03-BC02267D78E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2290341C-3CD3-4294-8375-996EFF8F6129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2290341C-3CD3-4294-8375-996EFF8F6129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2290341C-3CD3-4294-8375-996EFF8F6129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2290341C-3CD3-4294-8375-996EFF8F6129}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

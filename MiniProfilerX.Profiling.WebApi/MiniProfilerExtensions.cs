@@ -12,7 +12,7 @@ namespace MiniProfilerX.Profiling.WebApi
     {
         public const string MiniProfilerResultsHeaderName = "x-miniprofiler-results";
 
-        public static void AddToHttpResponseHeaders(this MiniProfiler miniProfiler, HttpResponse httpResponse)
+        public static void AddToHttpResponseHeader(this MiniProfiler miniProfiler, HttpResponse httpResponse)
         {
             string miniProfilerJson = JsonConvert.SerializeObject(miniProfiler);
             string miniProfilerJsonCompressed = GZipUtils.Zip(miniProfilerJson);
