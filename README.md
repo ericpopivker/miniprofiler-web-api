@@ -16,8 +16,24 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
 
    Or on original MiniProfiler site:
    http://miniprofiler.com
-   
-2. 
+
+2. Download and add "MiniProfilerX.Profilinig.WebApi" dll as reference to your WebApi project
+3. Add the following code to Global.asax.cs
+
+    ```C#
+   using MiniProfilerX.Profiling.WebApi;  //Add this using pragma
+
+   protected void Application_EndRequest()
+   {
+      MiniProfiler.Stop();
+
+      //Add these lines
+      if (MiniProfiler.Current != null)
+       qMiniProfiler.Current.AddToHttpResponseHeader(Response);
+   }
+  ```
+
+
 
 
 
